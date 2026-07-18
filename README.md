@@ -53,7 +53,7 @@ This lab demonstrates how vulnerability scanners help organizations proactively 
 The Windows Server was configured and its IP address identified before scanning.
 
 > 📷 **Insert Screenshot 1**
-![image alt](https://github.com/mtwbusiness909/Tenable-Nessus-Lab-MTW/blob/1f664ba76348f112c173ffcfeefe1896365bbc18/Nessus%20Lab%20Documentation/1.%20Screenshot%20of%20IP%20Address%20of%20Windows%20Server%20VM.png)
+![image alt](https://github.com/mtwbusiness909/Tenable-Nessus-Lab-MTW/blob/b9a14ef62d75123b74e62e26b819eb0fd1644148/Nessus%20Lab%20Documentation/1.%20Screenshot%20of%20IP%20Address%20of%20the%20Windows%20Server%20VM.png)
 
 This establishes the target system that Nessus will assess.
 
