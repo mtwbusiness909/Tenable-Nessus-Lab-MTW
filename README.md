@@ -53,6 +53,7 @@ This lab demonstrates how vulnerability scanners help organizations proactively 
 The Windows Server was configured and its IP address identified before scanning.
 
 > 📷 **Insert Screenshot 1**
+![image alt](https://github.com/mtwbusiness909/Tenable-Nessus-Lab-MTW/blob/e5e5f8d3db561822deb26803804ae4d770dc1eb7/Nessus%20Documentation%20Screenshots/1.%20Screenshot%20of%20IP%20Address%20of%20Windows%20Server%20VM.png)
 
 This establishes the target system that Nessus will assess.
 
@@ -63,6 +64,7 @@ This establishes the target system that Nessus will assess.
 A new scan policy was created inside Nessus.
 
 > 📷 **Insert Screenshot 2**
+![image alt](https://github.com/mtwbusiness909/Tenable-Nessus-Lab-MTW/blob/e5e5f8d3db561822deb26803804ae4d770dc1eb7/Nessus%20Documentation%20Screenshots/2.%20Create%20a%20scan%20of%20hosts%20on%20network%20(add%20red%20circle).png)
 
 This defines how Nessus will perform the assessment.
 
@@ -73,6 +75,7 @@ This defines how Nessus will perform the assessment.
 The Basic Network Scan template was selected.
 
 > 📷 **Insert Screenshot 3**
+![image alt](https://github.com/mtwbusiness909/Tenable-Nessus-Lab-MTW/blob/e5e5f8d3db561822deb26803804ae4d770dc1eb7/Nessus%20Documentation%20Screenshots/3.%20Choose%20Basic%20Network%20Scan%20(add%20red%20circle).png)
 
 This template performs host discovery and identifies exposed services running on the target machine.
 
@@ -83,6 +86,7 @@ This template performs host discovery and identifies exposed services running on
 The Windows Server IP address was entered into the scan configuration.
 
 > 📷 **Insert Screenshot 4**
+![image alt](https://github.com/mtwbusiness909/Tenable-Nessus-Lab-MTW/blob/e5e5f8d3db561822deb26803804ae4d770dc1eb7/Nessus%20Documentation%20Screenshots/4.%20Adding%20in%20important%20info.png)
 
 At this stage, Nessus knows which system it should assess.
 
@@ -93,8 +97,11 @@ At this stage, Nessus knows which system it should assess.
 The scan configuration was saved and executed.
 
 > 📷 **Insert Screenshot 5**
+![image alt](https://github.com/mtwbusiness909/Tenable-Nessus-Lab-MTW/blob/e5e5f8d3db561822deb26803804ae4d770dc1eb7/Nessus%20Documentation%20Screenshots/5.%20Click%20Save%20(add%20red%20circle).png)
 
 > 📷 **Insert Screenshot 6**
+![image alt](https://github.com/mtwbusiness909/Tenable-Nessus-Lab-MTW/blob/e5e5f8d3db561822deb26803804ae4d770dc1eb7/Nessus%20Documentation%20Screenshots/6.%20Click%20the%20play%20button%20to%20begin%20scan%20(add%20red%20circle).png)
+
 
 Nessus began probing the target system for open ports, services, and operating system information.
 
@@ -105,6 +112,7 @@ Nessus began probing the target system for open ports, services, and operating s
 Once the scan completed, Nessus generated its first report.
 
 > 📷 **Insert Screenshot 7**
+![image alt](https://github.com/mtwbusiness909/Tenable-Nessus-Lab-MTW/blob/e5e5f8d3db561822deb26803804ae4d770dc1eb7/Nessus%20Documentation%20Screenshots/7.%20Basic%20Network%20Discovery%20Scan%20of%20Windows%20Server%20.png)
 
 ### What this scan tells us
 
@@ -150,6 +158,17 @@ Credentialed scans provide significantly more visibility than unauthenticated sc
 The administrator credentials for the Windows Server were added to Nessus.
 
 > 📷 **Insert Screenshots 8–13**
+![image alt](https://github.com/mtwbusiness909/Tenable-Nessus-Lab-MTW/blob/e5e5f8d3db561822deb26803804ae4d770dc1eb7/Nessus%20Documentation%20Screenshots/8.%20New%20Scan%20(add%20red%20circle).png)
+
+![image alt](https://github.com/mtwbusiness909/Tenable-Nessus-Lab-MTW/blob/e5e5f8d3db561822deb26803804ae4d770dc1eb7/Nessus%20Documentation%20Screenshots/9.%20Choose%20Basic%20Network%20Scan%20(add%20red%20circle)%20-%20Copy.png)
+
+![image alt](https://github.com/mtwbusiness909/Tenable-Nessus-Lab-MTW/blob/e5e5f8d3db561822deb26803804ae4d770dc1eb7/Nessus%20Documentation%20Screenshots/10.%20Adding%20info.png)
+
+![image alt](https://github.com/mtwbusiness909/Tenable-Nessus-Lab-MTW/blob/e5e5f8d3db561822deb26803804ae4d770dc1eb7/Nessus%20Documentation%20Screenshots/11.%20After%20adding%20info%2C%20click%20credentials%20(add%20red%20circle).png)
+
+![image alt](https://github.com/mtwbusiness909/Tenable-Nessus-Lab-MTW/blob/e5e5f8d3db561822deb26803804ae4d770dc1eb7/Nessus%20Documentation%20Screenshots/12.%20Run%20Remote%20Registry.png)
+
+![image alt](https://github.com/mtwbusiness909/Tenable-Nessus-Lab-MTW/blob/e5e5f8d3db561822deb26803804ae4d770dc1eb7/Nessus%20Documentation%20Screenshots/13.%20Password%20scan%20for%20admin%20on%20windows%20server.png)
 
 This allows Nessus to inspect the operating system rather than only scanning exposed network services.
 
@@ -162,6 +181,7 @@ To demonstrate how Nessus detects security weaknesses, several intentionally ins
 ### Windows Firewall Disabled
 
 > 📷 **Insert Screenshot 14**
+![image alt](https://github.com/mtwbusiness909/Tenable-Nessus-Lab-MTW/blob/e5e5f8d3db561822deb26803804ae4d770dc1eb7/Nessus%20Documentation%20Screenshots/14.%20Tweaking%20WS%20-%20Disabling%20FW.png)
 
 Disabling the Windows Firewall exposes the server to unnecessary network risks and is commonly identified during vulnerability assessments.
 
@@ -170,6 +190,7 @@ Disabling the Windows Firewall exposes the server to unnecessary network risks a
 ### Weak Password Policy
 
 > 📷 **Insert Screenshot 15**
+![image alt](https://github.com/mtwbusiness909/Tenable-Nessus-Lab-MTW/blob/e5e5f8d3db561822deb26803804ae4d770dc1eb7/Nessus%20Documentation%20Screenshots/15.%20Weak%20Password%20Policy%20WS.png)
 
 Weak password requirements increase the likelihood of password attacks such as brute force or credential stuffing.
 
@@ -178,6 +199,7 @@ Weak password requirements increase the likelihood of password attacks such as b
 ### Microsoft Defender Disabled
 
 > 📷 **Insert Screenshot 16**
+![image alt](https://github.com/mtwbusiness909/Tenable-Nessus-Lab-MTW/blob/e5e5f8d3db561822deb26803804ae4d770dc1eb7/Nessus%20Documentation%20Screenshots/16.%20Disabling%20Windows%20Defender.png)
 
 Without endpoint protection, malware and malicious software become significantly easier to execute on the system.
 
@@ -186,6 +208,7 @@ Without endpoint protection, malware and malicious software become significantly
 ### Missing Windows Updates
 
 > 📷 **Insert Screenshot 17**
+![image alt](https://github.com/mtwbusiness909/Tenable-Nessus-Lab-MTW/blob/e5e5f8d3db561822deb26803804ae4d770dc1eb7/Nessus%20Documentation%20Screenshots/17.%20Disabling%20Missing%20Windows%20Updates.png)
 
 Missing security updates leave known vulnerabilities unpatched and increase the likelihood of successful exploitation.
 
